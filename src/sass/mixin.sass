@@ -1,0 +1,12 @@
+@import './variables'
+
+@mixin easeOut
+  transition: all 1.5s ease-out
+@mixin background
+  @if $show-home-image
+    &#bm-img
+      background: url('assets/img/work.jpg')
+      background-attachment: fixed
+      background-size: cover
+
+
